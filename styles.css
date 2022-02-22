@@ -5,6 +5,16 @@
     padding:0px
 }
 
+#menu, #close
+{
+position:absolute;
+top:20px;
+right:20px;
+background-color: transparent;
+border:none;
+display:none;
+}
+
 
 
 .containerfadeAnimation {
@@ -274,7 +284,7 @@ form textarea
     height:150px;
     background-color: rgba(224, 68, 68, 0.897);
     border:none;
-    margin:5px auto 5px auto;
+    padding:10px;
     color:white;
 }
 
@@ -288,18 +298,16 @@ form textarea
 }
 form
 {
-    width:400px
+    width:400px;
 }
 
 @media only screen and (max-width: 500px) {
 
-    header,header ul
+header ul
 {
-    display:block;
-    list-style: none;
-    align-items: center;
-    justify-content: center
-    }
+    display:none;
+
+}
 
     footer
     {
@@ -410,4 +418,27 @@ form
     {
         font-size: 60px;
     }
+    #menu
+    {
+        display:block
+    }
+  }
+
+
+  #barMenu
+  {
+    display:flex;
+    text-align:center;
+    flex-direction:column;
+    margin:100px 20% auto 20%;
+    list-style:none
+  }
+
+  #barMenu a:hover
+  {
+      color:red;
+  }
+  #barMenu a
+  {
+      color:white;
   }

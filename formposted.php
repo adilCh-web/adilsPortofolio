@@ -15,6 +15,7 @@
 <body>
     <div id = "container">
         <h1>Adil Chorfi</h1>
+        <button id = "menu" onclick = "loadMenu()"><i class="fas fa-bars fa-2x"></i></button>
         <header>
             <h4>Data Scientist / Software Developer</h4>
             <nav>
